@@ -1,10 +1,10 @@
 .summary {
     text-align: center;
-    max-width: 100%;
+    max-width: 45rem;
     width: 80%;
-    height: 40vh;
+    /* height: 40vh; */
     margin: auto;
-    margin-top: -18rem;
+    margin-top: -16rem;
     position: relative;
     /* background-color: rgba(233, 229, 222, 0.4); */
     background-color: rgba(0, 0, 0, 0.4);
@@ -16,10 +16,10 @@
   
   .summary h2 {
     font-size: 3rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     color: white;
   }
   .summary p {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: 600;
   }
