@@ -33,6 +33,21 @@ const AvailableMeals = () => {
     // const mealAddHandler = (meal) => {
     //   setMeals((prevMeals) => prevMeals.concat(meal));
     // };
+    if (isLoading) {
+      return (
+      <section className={classes.MealsLoading}>
+        <p>Loading</p>
+      </section>
+      )
+    }
+
+    if (error) {
+      return (
+        <section className={classes.MealsLoading}>
+        <p>{error}</p>
+      </section>
+      )
+    }
 
 
     const mealsList = meals.map((meal) => (

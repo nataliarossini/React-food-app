@@ -12,7 +12,6 @@ const Header = props => {
             </header>
             <div className={classes['main-image']}>
                 <img src={bread} alt='sourdough bread' />
-                
             </div>
         </Fragment>
     )
