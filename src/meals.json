@@ -1,0 +1,28 @@
+{
+    "meals": [
+    {
+      "id": 1,
+      "name": "Sourdough Bread",
+      "description": "Organic white sourdough, perfect for your morning toast",
+      "price": 3.99
+    },
+    {
+      "id": 2,
+      "name": "Pain ou Chocolat",
+      "description": "For the chocolate lovers...",
+      "price": 2.5
+    },
+    {
+      "id": 3,
+      "name": "Croissaint",
+      "description": "Layered and buttery as it should be!",
+      "price": 2.00
+    },
+    {
+      "id": 4,
+      "name": "Baguette",
+      "description": "The traditional crusty white french stick.",
+      "price": 1.99
+    }
+  ]
+}
