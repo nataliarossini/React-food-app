@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import HeaderCartButton from './HeaderCartButton';
 import bread from '../../assets/bakery3.jpg';
 import classes from './Header.module.css';
-import MealsSummary from "../Meals/MealsSummary";
 const Header = props => {
     return  (
         <Fragment>
