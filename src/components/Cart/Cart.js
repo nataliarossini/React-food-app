@@ -34,7 +34,10 @@ const Cart = (props) => {
         })
     };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72ce466a771b9511fb0811d539bcdd4df99b6736
     const cartItems =( 
         <ul className={classes['cart-items']}>
             {cartCtx.items.map(item => (
