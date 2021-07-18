@@ -25,7 +25,7 @@ const Cart = (props) => {
     }
 
     const submitOrderHandler = (userData) => {
-        fetch("https://meals-react-71efd-default-rtdb.europe-west1.firebasedatabase.app/meals.json", {
+        fetch("https://meals-react-71efd-default-rtdb.europe-west1.firebasedatabase.app/orders.json", {
             method: 'POST',
             body: JSON.stringify({
                 user: userData,
@@ -33,7 +33,6 @@ const Cart = (props) => {
             })
         })
     };
-
     const cartItems =( 
         <ul className={classes['cart-items']}>
             {cartCtx.items.map(item => (
